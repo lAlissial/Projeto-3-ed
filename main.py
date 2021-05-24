@@ -47,7 +47,7 @@ while True:
         lista1parabuscarano = []
         lista2parabuscarano = []
         guardandoresp = arvore.buscarAnos(lista1parabuscarano, arvore.raiz, n, lista2parabuscarano)
-        if len(guardandoresp) >= 0:
+        if len(guardandoresp) > 0:
             print()
             for i in guardandoresp:
                 print(f'Nome: {i.nome}\nAno: {i.ano}\nAlbum: {i.album}\n')
