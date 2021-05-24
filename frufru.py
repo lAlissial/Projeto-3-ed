@@ -62,4 +62,3 @@ def menu(lista, texto):
     print(linha())
     opc = leia_Int('Opcão: ')
     return opc
-
